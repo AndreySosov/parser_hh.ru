@@ -21,6 +21,4 @@ for fl in os.listdir('/parser_hh/pars_vacancies'):
 		file.write(data)
 		file.close()
 
-		time.sleep(0.25)
-
 print('Вакансии собраны')
